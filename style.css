@@ -1,0 +1,164 @@
+/* Reset and base styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #ECF0F1;
+    color: #333;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #2C3E50;
+    padding: 15px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: start; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  
+  .nav-links li {
+    margin: 0 25px;
+    margin-bottom: 20px;
+
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #18BC9C;
+  }
+  
+  /* Section styling */
+  .section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    
+  }
+  
+  /* Home section */
+  .home {
+    text-align: center;
+    background: linear-gradient(to right, #2C3E50, #4CA1AF);
+    color: white;
+  }
+  
+  .home .profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 5px solid #18BC9C;
+  }
+  
+  .home h1 {
+    font-size: 36px;
+    margin: 10px 0 5px;
+  }
+  
+  .home h2 {
+    font-size: 22px;
+    font-weight: normal;
+    color: #ECF0F1;
+  }
+  
+  .home p {
+    font-style: italic;
+    color: #B2EBF2;
+  }
+  
+  /* About  */
+  .about h2,
+  .skills h2,
+  .projects h2,
+  .contact h2,
+  .education h2
+  .biography h2
+  { 
+    color: #2C3E50;
+    border-left: 5px solid #18BC9C;
+    padding-left: 10px;
+    font-size: 28px;
+  }
+  
+  /* Skills  */
+  .skill-list {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-top: 15px;
+  }
+  
+  .skill-list li {
+    background-color: #18BC9C;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  /* Projects section */
+  .projects ul {
+    padding-left: 20px;
+    
+  }
+  
+  .projects a {
+    color: #18BC9C;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .projects a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Contact section */
+  .contact p {
+    line-height: 1.6;
+  }
+  
+  .contact a {
+    color: #2C3E50;
+    text-decoration: none;
+  }
+  
+  .contact a:hover {
+    color: #18BC9C;
+    text-decoration: underline;
+  }
+  
+  /* Responsive */
+  @media screen and (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-links li {
+      margin: 10px 0;
+    }
+  }
+  
